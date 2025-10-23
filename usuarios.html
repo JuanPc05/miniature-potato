@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,11 @@
     <link rel="stylesheet" href="src/styles/button.css">
     <link rel="stylesheet" href="src/styles/banner.css">
     <link rel="stylesheet" href="src/styles/navigation.css">
+    <link rel="stylesheet" href="src/styles/form.css">
+    <link rel="stylesheet" href="src/styles/card.css">
     <title>Usuarios</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -26,7 +30,7 @@
                     <li class="nav-item-dropdown">
                         <a href="#" class="nav-link">Usuarios</a>
                         <ul class="user-adm">
-                            <li><a href="#" class="nav-link">Usuarios</a></li>
+                            <li><a href="usuarios.html" class="nav-link">Usuarios</a></li>
                             <li><a href="#" class="nav-link">Administradores</a></li>
                         </ul>
                     </li>
@@ -35,6 +39,7 @@
                     <li><a href="#" class="nav-link">Java</a></li>
                     <li><a href="#" class="nav-link">Contáctanos</a></li>
                     <li><a href="#" class="nav-link">Equipo</a></li>
+
                 </ul>
             </div>
         </nav>
@@ -59,7 +64,22 @@
     </section>
 
     <main>
-        <form action=""></form>
+        <div class="tabla">
+            <div class="intro">
+                <h2>crea tu usuarios</h2>
+                <form>
+                    <label for="opciones">que tipo de usuario deseas crear</label>
+                    <select name="opciones" id="opciones">
+                        <option value="opciones1">adminitrador</option>
+                        <option value="opciones2">usuarios</option>
+                    </select>
+                    <button class="botonCrear" type="submit">crear </button>
+
+                </form>
+
+            </div>
+        </div>
     </main>
 </body>
+
 </html>
