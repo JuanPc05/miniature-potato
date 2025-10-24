@@ -1,13 +1,28 @@
-.botonCrear{
-    background-color: aqua;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: block;
+.botonCrear {
+    width: 75%;
+    padding: 12px;
+    background:var(--color-primary);
+    color: rgb(26, 2, 2);
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+     margin-top: 10px;
+
+}
+
+.botonOpciones {
+    width: 35%;
+    padding: 5px;
+    background: #ecf1f4;
+    color: rgb(26, 2, 2);
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
     margin-top: 10px;
+}
+
+.botonCrear:hover {
+    background: #f3f5f7;
 
 }
 
-.botonCrear:hover{
-    background-color: beige;
-}
