@@ -80,6 +80,13 @@ hr {
     box-shadow: 0 8px 20px var(--color-shadow);
 }
 
+.card1 img.profile {
+    width: 150px;
+    height: 150px;
+    margin: 50px auto; 
+    object-fit: cover;
+}
+
 @media (max-width: 600px) {
     .contenedor {
         gap: 20px;

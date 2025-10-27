@@ -19,3 +19,18 @@ label {
     padding: 5px;
     
 }
+
+@media (max-width: 600px) {
+    .contenedor {
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .card1 h2 {
+        font-size: 1.3rem;
+    }
+
+    .card1 p {
+        font-size: 0.95rem;
+    }
+}
