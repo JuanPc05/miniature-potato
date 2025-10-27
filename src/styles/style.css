@@ -70,3 +70,58 @@ body {
   Twitter: @xsgames_
 ---------------------------------------------- */
  @keyframes slide-top-left{0%{transform:translateY(0) translateX(0)}100%{transform:translateY(-100px) translateX(-100px) scale(2) rotate(-45deg)}}
+
+.cuadro{
+    
+    padding:30% ;
+     width: 30%;
+    height: 90%;
+    position: relative;
+    height: auto;
+    max-width: 800px;
+    
+}
+
+.h2{
+    text-align: center;          
+  color: #222;                
+  font-size: 2em;              
+  font-family: 'Arial', sans-serif; 
+  font-weight: bold;         
+  text-transform: uppercase;
+  letter-spacing: 3px;        
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
+  margin-top: 50px;        
+}
+
+.cuadro img{
+  align-items: center;
+    position: absolute;
+    left: 20%;
+    top: 17%;
+    width: 207%;
+    max-width: 770px;
+    height: auto;
+    max-width: 1068px;
+    height: 150%;
+    border:5px solid black;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.456);
+    
+}
+
+ pre {
+      background-color: #1e1e1e;  
+      color: #00ff88;             
+      padding: 15px;
+      border-radius: 10px;
+      font-family: "Consolas", monospace; 
+      overflow-x: auto; 
+      align-items: center;          
+    }
+
+@media (max-width: 1024px) {
+  .cuadro img{
+    width: 120%;
+  }
+
+  

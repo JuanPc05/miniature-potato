@@ -1,5 +1,5 @@
 .botonCrear {
-    width: 75%;
+    width: 50%;
     padding: 12px;
     background:var(--color-primary);
     color: rgb(26, 2, 2);
@@ -7,11 +7,12 @@
     border-radius: 10px;
     cursor: pointer;
      margin-top: 10px;
+      box-shadow:5px 5px 5px 5px rgba(0, 0, 0, 0.608) ;
 
 }
 
 .botonOpciones {
-    width: 35%;
+    width: 50%;
     padding: 5px;
     background: #ecf1f4;
     color: rgb(26, 2, 2);
@@ -19,6 +20,7 @@
     border-radius: 10px;
     cursor: pointer;
     margin-top: 10px;
+    box-shadow:5px 5px 5px 5px rgba(37, 34, 34, 0.345) ;
 }
 
 .botonCrear:hover {
@@ -52,5 +54,17 @@
     20%,40%,60%{transform:translateX(10px)}
     80%{transform:translateX(8px)}
     90%{transform:translateX(-8px)}
+}
+
+.botonOpciones2 {
+    width: 35px;
+    padding: 10px;
+    background: #ecf1f4;
+    color: rgb(26, 2, 2);
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow:5px 5px 5px 5px rgba(37, 34, 34, 0.393) ;
 }
 
