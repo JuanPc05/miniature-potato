@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  min-height: 100vh;
+  min-height: 150vh;
 }
 
 .chatbot {
@@ -18,7 +18,7 @@ body {
   display: flex;
   left: 90%;
   bottom: 0%;
-  animation: parpadeo 2s ease-in-out 3s 1 normal;
+  animation: parpadeo 2s ease-in-out 2s 1 normal;
 }
 
 .chatbot img {
@@ -64,14 +64,9 @@ body {
 
 
 .cuadro {
-
-  padding: 30%;
-  width: 30%;
-  height: 90%;
-  position: relative;
   height: auto;
   max-width: 800px;
-
+  margin: 20px auto 50px auto; 
 }
 
 .h2 {
@@ -87,18 +82,12 @@ body {
 }
 
 .cuadro img {
-  align-items: center;
-  position: absolute;
-  left: 20%;
-  top: 17%;
-  width: 207%;
-  max-width: 770px;
+  display: block;
+  margin: 0 auto;
+  width: 60rem;
   height: auto;
-  max-width: 1068px;
-  height: 150%;
   border: 5px solid black;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.456);
-
 }
 
 pre {

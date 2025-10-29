@@ -40,6 +40,25 @@
     box-shadow:5px 5px 5px 5px rgba(37, 34, 34, 0.393) ;
 }
 
+.botonEnviar {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 12px 24px;
+  margin: 1.5625rem auto ;
+  border: none; 
+  border-radius: 50px; 
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.botonEnviar:hover {
+  background-color: var(--bg-button);
+  transform: scale(1.2); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
 
 .reserva {
     width: 150px;
